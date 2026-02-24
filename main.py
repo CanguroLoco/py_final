@@ -10,6 +10,11 @@ PROMPT_NOMBRE = "Ingresa tu nombre: "
 PROMPT_EDAD = "Ingresa tu edad (en años): "
 PROMPT_ESTATURA = "Ingresa tu estatura (en metros, por ejemplo 1.68): "
 
+
+def calcular_edad(anio_nacimiento: int, anio_actual: int) -> int:
+    """Calcula la edad a partir del año de nacimiento y el año actual."""
+    return anio_actual - anio_nacimiento
+
 def is_valid_identificator(nombre: str) -> bool:
     """
     Verifica que 'nombre' sea un identificador válido en Python
