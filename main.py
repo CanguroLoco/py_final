@@ -10,6 +10,9 @@ PROMPT_NOMBRE = "Ingresa tu nombre: "
 PROMPT_EDAD = "Ingresa tu edad (en años): "
 PROMPT_ESTATURA = "Ingresa tu estatura (en metros, por ejemplo 1.68): "
 
+def print_status():
+    print ("Version 1.0.0 - Funcionalidad completa.")
+
 
 def calcular_edad(anio_nacimiento: int, anio_actual: int) -> int:
     """Calcula la edad a partir del año de nacimiento y el año actual."""
@@ -93,3 +96,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
+
